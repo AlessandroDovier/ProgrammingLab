@@ -2,7 +2,8 @@ class CSVFile():
 
     def __init__(self, name):
         self.name = name
-    
+
+
     def get_data(self):
         lista_grande=[]
 
@@ -22,3 +23,4 @@ class CSVFile():
 myobject=CSVFile('shampoo_sales.csv')
 myobject2=myobject.get_data()
 print(myobject2)
+
